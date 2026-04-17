@@ -2,7 +2,7 @@ import {test} from '@playwright/test';
 import LoginPage from "../pages/LoginPage";
 import { decrypt, encrypt } from "../utils/CryptojsUtil.ts";
 import { encryptEnvFile } from '../utils/EncrpytEnvFile.ts';
-
+import logger from "../utils/LoggerUtil";
 
 // Test to verify that the user is able to login to the sales force application and the service title is visible on the home page after login
 // This test will navigate to the login page, fill in the username and password, click the login button and verify that the service title is visible on the home page after login
@@ -23,6 +23,7 @@ test("Login Sales force application", async ({page}) => {
     await loginPage.fillPassword(decrypt(process.env.password!));
     const homepage = await loginPage.clickLoginButton();
     await homepage.expectServiceTitleToBeVisible();
+    await logger.info("Login test passed successfully");
 });
 
 test.skip("Sample Env test", async ({page}) => {

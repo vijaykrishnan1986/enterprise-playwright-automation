@@ -1,0 +1,38 @@
+2026-04-17T17:12:52+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+[2m    - waiting for" https://orgfarm-6b7541634f-dev-ed.develop.my.salesforce.com/secur/frontdoor.jsp?allp=1&cshc=5000005dVUH5000008d1Vt&apv=1&display=page&ucs=1" navigation to finish...[22m
+[2m    - navigated to "https://orgfarm-6b7541634f-dev-ed.develop.my.salesforce.com/secur/frontdoor.jsp?allp=1&cshc=5000005dVUH5000008d1Vt&apv=1&display=page&ucs=1"[22m
+[2m    - waiting for" https://orgfarm-6b7541634f-dev-ed.develop.lightning.force.com/visualforce/recsession?sid=00Dg5000008d1Vt%21AQEAQCPxrrkQccuMuQgrlcYpEjXsZc9N4ADXZvEbC1JhOv3KJfsiLB.kbPMVWBwf1qNISfqwhxOqyExMWSsgBSmgZNTC…" navigation to finish...[22m
+[2m    - navigated to "https://orgfarm-6b7541634f-dev-ed.develop.lightning.force.com/one/one.app"[22m
+
+2026-04-17T21:02:45+05:30 [error]: Error clicking on First Name text field: Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByPlaceholder('First Name')[22m
+
+2026-04-17T21:12:09+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
+2026-04-17T21:26:27+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
