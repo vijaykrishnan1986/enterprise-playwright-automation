@@ -13,3 +13,9 @@
 2026-04-18T10:55:59+05:30 [info]: Service title is visible on the home page
 2026-04-18T10:56:00+05:30 [info]: Contacts Tab is visible
 2026-04-18T10:56:00+05:30 [info]: Contacts Tab is clicked
+2026-04-18T11:32:38+05:30 [info]: Navigated to login page
+2026-04-18T11:32:38+05:30 [info]: Filled username: vijaykrishnan27.d18c44e8b1ac@agentforce.com
+2026-04-18T11:32:38+05:30 [info]: Filled password: password27
+2026-04-18T11:32:43+05:30 [info]: Clicked on login button
+2026-04-18T11:33:03+05:30 [info]: Service title is visible on the home page
+2026-04-18T11:33:03+05:30 [info]: Login test passed successfully
