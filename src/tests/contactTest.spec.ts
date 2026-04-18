@@ -48,21 +48,21 @@ test("simple DD test", async ({ page }) => {
     logger.info("Test for Contact Creation is completed");
 });
 
-// test.skip("csv to json", async () => {
-//     convertCsvFileToJsonFile("data.csv", "datademo.json");
-// });
-
-
-// Convert CSV file to JSON file
 test.skip("csv to json", async () => {
     convertCsvFileToJsonFile("data.csv", "datademo.json");
 });
 
-// test.skip("demo faker", async() => {
-//     logger.info("Demo for Faker is started...");
-//     logger.info(`The generated name is: ${demoOutput}`);
-//     logger.info("Demo for Faker is completed...");
-// });
+
+// Convert CSV file to JSON file
+test.skip("csv file to json", async () => {
+    convertCsvFileToJsonFile("data.csv", "datademo.json");
+});
+
+test.skip("demo faker", async() => {
+    logger.info("Demo for Faker is started...");
+    logger.info(`The generated name is: ${demoOutput}`);
+    logger.info("Demo for Faker is completed...");
+});
 
 test.skip("Faker data generation and export", async() => {
     logger.info("Generating Faker Test data...");
