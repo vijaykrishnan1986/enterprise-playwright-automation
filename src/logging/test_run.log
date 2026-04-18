@@ -133,3 +133,34 @@ Call log:
 2026-04-17T22:12:30+05:30 [info]: Generating Faker Test data...
 2026-04-17T22:12:30+05:30 [info]: Exporting Faker Test data to JSON file...
 2026-04-17T22:12:30+05:30 [info]: Exporting Faker Test data to CSV file...
+2026-04-18T10:23:12+05:30 [info]: Test for Contact Creation is started...
+2026-04-18T10:23:14+05:30 [info]: Navigated to login page
+2026-04-18T10:23:14+05:30 [info]: Filled username: 
+2026-04-18T10:23:14+05:30 [info]: Filled password: 
+2026-04-18T10:23:15+05:30 [info]: Clicked on login button
+2026-04-18T10:23:25+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
+2026-04-18T10:23:30+05:30 [info]: Test for Contact Creation is started...
+2026-04-18T10:23:31+05:30 [info]: Navigated to login page
+2026-04-18T10:23:32+05:30 [info]: Filled username: 
+2026-04-18T10:23:32+05:30 [info]: Filled password: 
+2026-04-18T10:23:33+05:30 [info]: Clicked on login button
+2026-04-18T10:23:37+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
+2026-04-18T10:54:53+05:30 [info]: Test for Contact Creation is started...

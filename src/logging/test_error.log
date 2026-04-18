@@ -36,3 +36,23 @@ Call log:
 [2m  - Expect "toHaveText" with timeout 30000ms[22m
 [2m  - waiting for locator('span[title="Service"]')[22m
 
+2026-04-18T10:23:25+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
+2026-04-18T10:23:37+05:30 [error]: Service title is not visible on the home page: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('span[title="Service"]')
+Expected: [32m"Service"[39m
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 30000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+
