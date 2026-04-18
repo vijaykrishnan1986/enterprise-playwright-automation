@@ -5,6 +5,8 @@ import logger from "../utils/LoggerUtil";
 import ContactPage from '../pages/ContactPage';
 import cdata from "../testdata/contacts.json";
 import { convertCsvFileToJsonFile } from '../utils/CSVToJSONUtil.ts';
+import { demoOutput } from '../utils/fakerSample.ts';
+import { exportToCsv, exportToJson, generateTestData } from '../utils/FakerDataUtil.ts';
 
 for (const contactData of cdata) { 
 test.skip(`Data driven Framework - Contact Creation Test for ${contactData.firstName} ${contactData.lastName}`, async ({ page }) => {
@@ -55,3 +57,19 @@ test("simple DD test", async ({ page }) => {
 test("csv to json", async () => {
     convertCsvFileToJsonFile("data.csv", "datademo.json");
 });
+
+test("demo faker", async() => {
+    logger.info("Demo for Faker is started...");
+    logger.info(`The generated name is: ${demoOutput}`);
+    logger.info("Demo for Faker is completed...");
+});
+
+test("Faker data generation and export", async() => {
+    logger.info("Generating Faker Test data...");
+    const testData = generateTestData(5);
+    logger.info("Exporting Faker Test data to JSON file...");
+    exportToJson(testData, "fakerTestData.json");
+    logger.info("Exporting Faker Test data to CSV file...");
+    exportToCsv(testData, "fakerTestData.csv");
+});
+
